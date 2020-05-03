@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "bond_Key",
+    "db": "mongodb://localhost/bond"
+}

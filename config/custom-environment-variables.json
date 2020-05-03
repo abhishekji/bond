@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "bond_jwtKey",
+    "db": "bond_db"
+}
