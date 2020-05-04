@@ -11,7 +11,7 @@ module.exports = function(app, router) {
     app.use('/rivers/himalayas/north', himalayanRivers);
     app.use('/users', users);
     app.use('/', (req, res, next) => {
-        res.status(404).send('Welcome please enter the required url for the rivers...');
+        res.status(404).send('Welcome please enter the required url for the rivers..');
     })
     app.use(err);
 }
