@@ -7,7 +7,6 @@ const err = require('../middleware/error');
 
 module.exports = function(app, router) {
     app.use(express.json());
-  //  app.use('/rivers', subApp);
     app.use('/rivers/himalayas/north', himalayanRivers);
     app.use('/users', users);
     app.use('/', (req, res, next) => {
